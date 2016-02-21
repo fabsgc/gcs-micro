@@ -9,7 +9,7 @@
 Spécifications :
 -----------
 
-* PHP 5.6 minimum
+* PHP 5.6 at least
 * Chmod (755) (log)
 * rewrite_module
 
