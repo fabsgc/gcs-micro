@@ -1,0 +1,1 @@
+<h1 class="standalone-title"><?php echo $error; ?></h1>
