@@ -39,6 +39,6 @@ return [
 		],
 		'error' => 'core/error.php',
 		'logged' => 'logged',
-		'role' => 'status',
+		'role' => 'status'
 	]
 ];
