@@ -15,8 +15,8 @@ class Autoload{
 	 */
 
 	public static function load($class){
-		if(file_exists('vendor/'.$class.'.php')){
-			require_once('vendor/'.$class.'.php');
+		if(file_exists('vendor/'.str_replace('\\', '/', $class) .'.php')){
+			require_once('vendor/'.str_replace('\\', '/', $class).'.php');
 		}
 	}
 }
